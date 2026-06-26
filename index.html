@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova 2026 Registration</title>
+    <link rel = "stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair ">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins ">
+</head>
+<body>
+    <div class="page-shell">
+        <header class="hero">
+            <h1>TECHNOVA 2026</h1>
+            <p>Annual Inter-College Technical Fest</p>
+            <p>Showcase your skills, compete with the best, and win exciting prizes!</p>
+        </header>
+
+        <section class="event-info">
+            <h1>Event Details</h1>
+            <div class="info-grid">
+                <div class="info-card">
+                    <strong>📅Date</strong>
+                    <br>
+                    <span>July 20, 2026</span>                  
+                </div>
+                <div class="info-card">
+                    <strong>📍Venue</strong>
+                    <br>
+                    <span>Main Auditorium</span>
+                </div>
+                <div class="info-card">
+                    <strong>⏰Time</strong>
+                    <br>
+                    <span>10:00 AM onwards</span>
+                </div>
+            </div>
+        </section>
+
+        <form class="event" action="#" method="post">
+            <h1>Student Registration Form</h1>
+            <p>Kindly fill out the registration form below and secure your spot!</p>
+            <fieldset>
+                <h3>Personal Information</h3>
+                <label for="Name">Name:</label>
+                <input type="text" id="Name" name="Name" required placeholder="E.g. John Man" />
+                <br>
+                <label for="Email">Email:</label>
+                <input type="email" id="Email" name="Email" required placeholder="E.g. john@example.com" />
+                <br>
+                <label for="gender">Gender:</label>
+                <div class="choice-group">
+                    <label class="choice-item"><input type="radio" id="male" name="gender" value="male" /> Male</label>
+                    <label class="choice-item"><input type="radio" id="female" name="gender" value="female" /> Female</label>
+                    <label class="choice-item"><input type="radio" id="other" name="gender" value="other" /> Other</label>
+                </div>
+                <br>
+                <label for="Age">Age:</label>
+                <input type="number" id="Age" name="Age" required placeholder="E.g. 18" />
+                <br>
+                <label for="Phone">Phone:</label>
+                <input type="tel" id="Phone" name="Phone" required placeholder="E.g. 123-456-7890" />
+                <br>
+                <br>
+                <h3>Academic Information</h3>
+                <label for="college">College Name:</label>
+                <input type="text" id="college" name="college" required />
+                <br>
+                <label for="Course">Course:</label>
+                <select id="Course" name="Course">
+                    <option value="BCA">BCA</option>
+                    <option value="BSc">BSc</option>
+                    <option value="BTech">B.Tech</option>
+                    <option value="BE">BE</option>
+                </select>
+                <br>
+                <label for="year">Year of Study:</label>
+                <select id="year" name="year" required>
+                    <option value="">Select Year</option>
+                    <option>1st Year</option>
+                    <option>2nd Year</option>
+                    <option>3rd Year</option>
+                    <option>4th Year</option>
+                </select>
+                <br>
+                <h3>Choose Your Event</h3>
+                <div class="choice-group">
+                    <label class="choice-item"><input type="radio" id="coding" name="event" value="Coding Competition" required /> Coding Competition</label>
+                    <br>
+                    <label class="choice-item"><input type="radio" id="webdesign" name="event" value="Web Design Contest" /> Web Design Contest</label>
+                    <br>
+                    <label class="choice-item"><input type="radio" id="quiz" name="event" value="Quiz Competition" /> Quiz Competition</label>
+                    <br>
+                    <label class="choice-item"><input type="radio" id="hackathon" name="event" value="Hackathon" /> Hackathon</label>
+                </div>
+                <br>
+                <h3>Workshops Interested In</h3>
+                <div class="choice-group">
+                    <label class="choice-item"><input type="checkbox" id="ai" name="workshop" value="AI & ML" /> AI & ML</label>
+                    <br>
+                    <label class="choice-item"><input type="checkbox" id="webdev" name="workshop" value="Web Development" /> Web Development</label>
+                    <br>
+                    <label class="choice-item"><input type="checkbox" id="cyber" name="workshop" value="Cyber Security" /> Cyber Security</label>
+                    <br>
+                    <label class="choice-item"><input type="checkbox" id="cloud" name="workshop" value="Cloud Computing" /> Cloud Computing</label>
+                </div>
+                <br>
+                <label for="message">Why would you like to participate?</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell us about your interests..."></textarea>
+                <br>
+                <label class="choice-item agree" for="agree">
+                    <input type="checkbox" id="agree" required /> I agree to the event rules and regulations.
+                </label>
+                <br>
+                <br>
+                <button type="submit">Register Now</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 TechNova. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
