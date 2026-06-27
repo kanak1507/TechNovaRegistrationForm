@@ -20,7 +20,7 @@ TechNova 2026 is a fictional inter-college technical fest registration website. 
 - CSS3
 
 Demo:
-www.kanak1507.github.io/TechNovaRegistrationForm
+https://kanak1507.github.io/TechNovaRegistrationForm/
 
 🚀 Getting Started
 
