@@ -179,3 +179,14 @@ footer {
 #Course:has(option[value="Other"]:checked) ~ #other-course-container {
     display: block;
 }
+html{
+    scroll-behavior:smooth;
+}
+.submiting{
+    max-width:700px;
+    margin:50px auto;
+    text-align:center;
+    background:rgba(255,255,255,0.12);
+    padding:30px;
+    border-radius:15px;
+}
