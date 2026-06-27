@@ -2,6 +2,22 @@
     box-sizing: border-box;
     font-family: 'Poppins', serif;
 }
+nav {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    background: rgba(10, 0, 75, 0.86);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 16px 40px rgba(45, 33, 25, 0.12);
+}
+nav a{
+    color:#fbf4f8;
+    text-decoration: none;
+}
 body {
     margin: 0;
     min-height: 100vh;
@@ -133,6 +149,10 @@ input[type="checkbox"] {
     margin-top: 4px;
     text-align: left;
 }
+button[type="submit"] a {
+    text-decoration: none;
+    color: inherit; 
+}
 footer {
     text-align: center;
     color: #f8dce9;
@@ -146,4 +166,16 @@ footer {
     .event {
         padding: 22px;
     }
+}
+.event{
+    max-width:700px;
+    margin:auto;
+}
+#other-course-container {
+    display: none;
+    margin-top: 10px;
+}
+
+#Course:has(option[value="Other"]:checked) ~ #other-course-container {
+    display: block;
 }
